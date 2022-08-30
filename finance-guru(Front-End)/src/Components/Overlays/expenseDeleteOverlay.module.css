@@ -1,0 +1,46 @@
+.DeleteOverlay{
+    text-align: center;
+    padding: 0px 20px;
+}
+.Header{
+    font-size: 20px;
+    padding:10px;
+   
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+
+
+.YesButton, .NoButton{
+	border-radius: 4px;
+	border: none;
+	color: white;
+	display: block;
+	font-size: 1.125rem;
+    padding: 10px 0px;
+	transition: 150ms;
+    cursor: pointer;
+    width: 150px;
+}
+
+.YesButton{
+    background-color: #30B73D;
+}
+
+.NoButton{
+    background-color: #DA2020;
+}
+
+.YesButton:hover{
+    background-color: #4AD157;
+}
+
+.NoButton:hover{
+    background-color: #F43A3A;
+
+}

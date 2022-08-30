@@ -1,0 +1,39 @@
+.Overlay{
+    text-align: center;
+	padding:30px;
+	padding-top:10px;
+}
+
+
+.Overlay p{
+    font-size: 20px;
+}
+
+.Overlay input{
+    border-color: #4431D1;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	font-size: 1rem;
+	margin-top:50px;
+    margin-bottom: 30px;
+	padding: 0;
+	transition:100ms;
+	min-width: 190px;
+	
+}
+
+.Overlay button{
+    border-radius: 5px;
+	border: none;
+    background-color: #4431D1;
+	color: white;
+	display: block;
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin: 20px auto 40px auto;
+	padding: 11px 0px;
+	transition: 150ms;
+    width:70%;
+    cursor: pointer;
+}

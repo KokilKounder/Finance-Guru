@@ -1,0 +1,8 @@
+.mainFrame{
+	background-color: #4431D1;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

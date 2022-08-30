@@ -1,0 +1,50 @@
+.Date-Selector{
+    margin-bottom: 48px;
+    font-size: 1.75rem;
+    gap: 4px;
+    margin-left: 20px;
+
+}
+
+
+.Selector_Button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    height:30px;
+}
+
+.DateSelectorInput{
+    font-size: 1.75rem;
+    width:120px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-left:none;
+	border-right:none;
+	border-top:none;
+    caret-color: transparent;
+    cursor:pointer;
+    border-color: black;
+    text-align: center;
+
+    /* border-color: #4431D1;
+	font-size: 1rem;
+	margin:30px 0px;
+	padding: 0;
+	transition:100ms;
+	width:280px;
+ */
+
+
+}
+
+input:focus{
+    outline: none;
+  
+  
+}
+.Selector_Button img{
+   width: 20px;
+   height: 20px;
+}
+

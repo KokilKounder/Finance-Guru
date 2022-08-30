@@ -1,0 +1,101 @@
+.Panel{
+	background-color: white;
+	border-radius: 22px;
+	box-sizing: border-box;
+	display: flex;
+	margin: 30px;
+	max-width: 1170px;
+	padding: 40px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.Form{
+    flex: 1;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+
+.Panel h1{
+	font-size: 3rem;
+	margin: 15px
+}
+
+.Panel a{
+	color: #4431D1;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+
+.Panel a:hover{
+	color: #5E4BEB;
+}
+
+
+.Error-Msg{
+    color: red; 
+    margin-top:20px;
+}
+
+.Panel form {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+.Panel input{
+	border-color: #4431D1;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	font-size: 1rem;
+	margin:40px;
+	padding: 0;
+	transition:100ms;
+	width:70%;
+}
+
+
+.Panel input[type="password"]{
+    margin-bottom:10px;
+}
+.Panel input:focus{
+	border-color: #917EFF;
+	outline: none;
+	transition: 250ms;
+}
+
+.Panel .InputFieldError{
+    border-color: red;
+}
+
+.Panel .InputFieldError:focus{
+    border-color: red;
+}
+
+.Panel button {
+	background-color: #4431D1;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	display: block;
+	font-size: 1.125rem;
+	font-weight: bold;
+	margin: 50px auto 50px auto;
+	padding: 13px 60px;
+	transition: 150ms;
+}
+
+.Panel button:hover {
+	background-color: #5E4BEB;
+	cursor: pointer;
+	transition: 250ms;
+}
+
+.Panel button:disabled{
+	background-color: #b4aded;
+	color: #f8f8f8;
+	cursor:default;
+}
+

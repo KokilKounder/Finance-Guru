@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    padding: 1rem;
+}
+
+.Navbar-Icon-button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding:0.5rem;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.Navbar-Icon-button img{
+    padding-top: 0.1rem;
+    width: 1.875rem; 
+    height: 1.875rem;
+}
+
+

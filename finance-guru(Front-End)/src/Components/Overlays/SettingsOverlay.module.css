@@ -1,0 +1,44 @@
+.Overlay{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Overlay button{
+	border-radius: 5px;
+	border: none;
+	color: white;
+	display: block;
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin: 50px 40px 50px 40px;
+    padding: 11px 0px;
+	transition: 150ms;
+    min-width: 210px;
+    cursor: pointer;
+}
+
+.Username-Button{
+    background-color: #4431D1;  
+}
+
+.Logout-Button{ 
+    background-color:  #4431D1;
+}
+
+.Deleteaccount-Button{
+    background-color:  #DA2020;
+}   
+
+
+.Username-Button:hover{
+    background-color: #5E4BEB;  
+}
+
+.Logout-Button:hover{ 
+    background-color: #5E4BEB;  
+}
+
+.Deleteaccount-Button:hover{
+    background-color:  #F43A3A;
+}   
+

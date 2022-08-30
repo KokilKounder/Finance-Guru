@@ -1,0 +1,5 @@
+.Section{
+    height:10px;
+    box-sizing:content-box;
+    transition: 300ms;
+}
